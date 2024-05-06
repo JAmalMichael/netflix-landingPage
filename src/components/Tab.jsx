@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaDoorOpen, FaTabletAlt, FaTags} from 'react-icons/fa'
+import { FaChevronRight } from "react-icons/fa"
 import Table from './Table'
 
 const Tab = () => {
@@ -22,47 +23,59 @@ const Tab = () => {
     <p className='hidden sm:inline-block text-[1.2rem] pt-[0.5rem]'>Pick your price</p>
     </div>
     </div>
-    <div id="tab-1-content" >
-      <div>
-          <div>
+    <div className=''>
+    <container className=''>
+    <div id="tab-1-content" 
+    className='text-white flex flex-col justify-center items-center sm:flex-row flex-1 mx-auto hidden'>
+          <div className=' w-[50%] sm:w-[30%]'>
             <p>If you decide Netflix isnt for you - no problem
-            . No commitment. Can online anytime.</p>
-            <a href="#">Watch free for 30 days</a>
-          </div>
+            . No commitment. Can watch online anytime.</p>
+            <button className='bg-red-700 items-center h-10 w-[2rem] px-2'>
+            Watch anytime
+            </button>
+         </div>
+          <div className=' w-[30%]'>
           <img 
           src="https://i.ibb.co/J2xDJV7/tab-content-1.png"
-           alt="" />
-      </div>
+           alt="" 
+           width={300}
+           height={300} />
+           </div>
     </div>
     
-    <div id="tab-2-content" className='hidden'>
-      <div>
-        <p>Watch TV shows and movies anytime, anywhere - personalised for you.
+    <div id="tab-2-content" className='flex flex-col justify-center items-center text-white'>
+      <div className='flex flex-col items-center '>
+        <p className='text-center'>Watch TV shows and movies anytime, anywhere - personalised for you.
         </p>
-        <a href="/">Watch Free For 30 days</a>
+        <a href="/" 
+        className='mx-auto text-center my-5'
+        >Watch Free For 30 days</a>
       </div>
       <div>
+      <div  className='sm:w-[20%] flex flex-col items-center '>
       <img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png"
-       alt="" />
+       alt="" width={500} height={500}/>
        <p>Watch your TV</p>
-       <p>Smart TVs, Playstation, Xbox, Chromscast,
+       <p className='w-[70%]'>Smart TVs, Playstation, Xbox, Chromscast,
        Apple TV, Bluu-ray
        players and more.</p>
       </div>
-      <div>
+      <div className='sm:w-[20%] flex flex-col items-center '>
       <img src="https://i.ibb.co/R3r1SPX/tab-content-2-2.png"
-       alt="" />
+       alt=""  width={500} height={500}/>
        <p>Watch instantly or download for later</p>
        <p>Available on phone and tablet, wherever you go.
        </p>
       </div>
-      <div>
+      <div className='sm:w-[20%] flex flex-col items-center '>
       <img src="https://i.ibb.co/gDhnwWn/tab-content-2-3.png" 
-      alt="" />
+      alt="" width={500} height={500}/>
       <p>Use any computer</p>
       <p>Watch right on Netflix.com</p>
       </div>
+      </div>
     </div>
+
     <div id="tab-3-content" className='hidden'>
       <div>
       <p>
@@ -72,6 +85,8 @@ const Tab = () => {
       </div>
     </div>
     <Table />
+    </container>
+    </div>
     </section>
   )
 }
