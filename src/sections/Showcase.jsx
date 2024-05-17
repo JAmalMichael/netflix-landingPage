@@ -1,25 +1,34 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { FaChevronRight } from "react-icons/fa"
+
 
 const Showcase = () => {
   return (
     <div 
     className="bg-[url('https://i.ibb.co/vXqDmnh/background.jpg')] bg-cover bg-center w-100% 
-    h-93vh "
+    h-93vh font-sans shadow-[inset_120px_100px_250px_#000000,_inset_-120px_-100px_250px_#000000]"
     >
-    <div className="after:content-[''] after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-[rgba(0,0,0, 0.6)]
-    after:shadow-[inset 120px 100px 250px #000000, inset -120px -100px 250px #000000];">
-    </div>
-    <div className='h-[90px] relative z-2 flex items-center p-5'>
+  
+    <div className='h-[90px] relative z-2 flex justify-between items-center p-5'>
     <img 
     src="https://i.ibb.co/r5krrdz/logo.png" 
     alt="" 
-    className='mx-auto w-[170px] '/>
-       <a href='/' className='w-20 h-8 bg-red-500 rounded-md text-black text-center text-md my-auto'>
+    className='w-[170px] sm:mx-auto'/>
+       <a href='/' className='w-20 h-8 bg-red-500 rounded-md text-black text-center text-md my-auto hover:opacity-[0.9]'>
        Sign-in
        </a>
     </div>
-    <div>
+    <div className='relative z-2 w-65% mx-auto my-auto 
+    flex flex-col justify-center items-center text-center mt-[9rem] text-white'>
+      <h1 className="font-bold text-[3.2rem] sm:text-[5.2rem]
+      mt-0 mr-0 mb-[2rem]">See What's next</h1>
+      <p className="text-[###] font-normal text-[1.9rem] leading-[1.25] mt-0 mr-0 mb-[2rem]">Watch anywhere Cancel Anytime</p>
+      <div className="flex bg-red-700 py-[0.4rem] px-[1.3rem] text-sm text-center mr-[0.5rem] 
+      shadow-[0 1px 0 rgba(0, 0, 0, 0.45)] hover:opacity-[0.9] rounded-sm">
+      <a href="/" className="my-auto">
+      Watch Free For 30 Days 
+      </a>
+      <FaChevronRight className="my-auto"/>
+      </div>
     </div>
     </div>
   )
