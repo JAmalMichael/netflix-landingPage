@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'showcase-background' : "url('https://i.ibb.co/vXqDmnh/background.jpg')"
+      }
+    },
   },
   plugins: [],
 }
