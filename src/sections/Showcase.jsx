@@ -1,5 +1,7 @@
 import { FaChevronRight } from "react-icons/fa"
 import Tab from "../components/Tab"
+import Table from "../components/Table"
+
 
 
 const Showcase = () => {
@@ -33,6 +35,7 @@ const Showcase = () => {
        
     </div>
     <Tab/> 
+    <Table />
     </div>
   )
 }
