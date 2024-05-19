@@ -8,7 +8,7 @@ const Showcase = () => {
     <>
     <div 
     className="bg-[url('https://i.ibb.co/vXqDmnh/background.jpg')] bg-cover bg-center w-100% 
-    w-100% font-sans shadow-[inset_180px_100px_250px_#000000,_inset_-180px_-100px_250px_#000000] "
+    w-100% font-sans shadow-[inset_100px_100px_250px_#000000,_inset_-100px_-100px_250px_#000000] "
     >
     <div className='h-[90px] relative z-2 flex justify-between items-center p-5'>
     <img 
