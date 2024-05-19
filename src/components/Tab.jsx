@@ -26,7 +26,7 @@ const Tab = () => {
     <div className=''>
     <container className=''>
     <div id="tab-1-content" 
-    className='text-white flex flex-col justify-center items-center sm:flex-row flex-1 mx-auto hidden'>
+    className='text-white flex flex-col justify-center items-center sm:flex-row flex-1 mx-auto '>
           <div className=' w-[50%] sm:w-[30%]'>
             <p>If you decide Netflix isnt for you - no problem
             . No commitment. Can watch online anytime.</p>
@@ -43,7 +43,7 @@ const Tab = () => {
            </div>
     </div>
     
-    <div id="tab-2-content" className='flex flex-col justify-center items-center text-white'>
+    <div id="tab-2-content" className='flex flex-col justify-center items-center text-white hidden'>
       <div className='flex flex-col items-center '>
         <p className='text-center'>Watch TV shows and movies anytime, anywhere - personalised for you.
         </p>
