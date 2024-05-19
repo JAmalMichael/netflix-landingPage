@@ -45,7 +45,7 @@ const Tab = () => {
            </div>
     </div>
     
-    <div id="tab-2-content" className=' text-white mt-6'>
+    <div id="tab-2-content" className=' text-white mt-6 hidden'>
       <div className='grid grid-cols-1 justify-center w-[80%] mx-auto text-lg font-bold mb-6
       sm:grid-cols-2 sm:w-[60%] items-center'>
         <p className='text-center sm:text-xl'>Watch TV shows and movies anytime, anywhere - personalised for you.
@@ -79,7 +79,7 @@ const Tab = () => {
       </div>
     </div>
 
-    <div id="tab-3-content" className='hidden'>
+    <div id="tab-3-content" className=''>
       <div>
       <p>
         Choose one plan and watch everything on Netflix.

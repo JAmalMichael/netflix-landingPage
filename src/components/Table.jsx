@@ -1,9 +1,10 @@
-import React from 'react'
+import {FaCheck} from 'react-icons/fa'
+import {FaTimes} from 'react-icons/fa'
 
 const Table = () => {
   return (
     <div>
-    <table className='hidden'>
+    <table className=''>
     <thead>
         <tr>
             <th></th>
@@ -21,15 +22,15 @@ const Table = () => {
         </tr>
         <tr>
             <td>HD Available</td>
-            <td><i class="fas fa-times"></i></td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
+            <FaTimes />
+            <FaCheck />
+            <FaCheck />
         </tr>
         <tr>
             <td>Ultra HD Available</td>
-            <td><i class="fas fa-times"></i></td>
-            <td><i class="fas fa-times"></i></td>
-            <td><i class="fas fa-check"></i></td>
+            <FaTimes />
+            <FaTimes />
+            <FaCheck />
         </tr>
         <tr>
             <td>Screens you can watch on at the same time</td>
@@ -39,27 +40,27 @@ const Table = () => {
         </tr>
         <tr>
             <td>Watch on your laptop, TV, phone and tablet</td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
+            <FaCheck />
+            <FaCheck />
+            <FaCheck />
         </tr>
         <tr>
             <td>Unlimited movies and TV shows</td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
+            <FaCheck />
+            <FaCheck />
+            <FaCheck />
         </tr>
         <tr>
             <td>Cancel anytime</td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
+            <FaCheck />
+            <FaCheck />
+            <FaCheck />
         </tr>
         <tr>
             <td>First month free</td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
-            <td><i class="fas fa-check"></i></td>
+            <FaCheck />
+            <FaCheck />
+            <FaCheck />
         </tr>
     </tbody>
 </table>
