@@ -1,11 +1,11 @@
 import { FaChevronRight } from "react-icons/fa"
 import Tab from "../components/Tab"
-import Table from "../components/Table"
 
 
 
 const Showcase = () => {
   return (
+    <>
     <div 
     className="bg-[url('https://i.ibb.co/vXqDmnh/background.jpg')] bg-cover bg-center w-100% 
     w-100% font-sans shadow-[inset_180px_100px_250px_#000000,_inset_-180px_-100px_250px_#000000] "
@@ -31,12 +31,11 @@ const Showcase = () => {
       Watch Free For 30 Days 
       </a>
       <FaChevronRight className="my-auto"/>
-      </div> 
-       
+      </div>  
+    </div>
     </div>
     <Tab/> 
-    <Table />
-    </div>
+    </>
   )
 }
 

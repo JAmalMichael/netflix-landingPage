@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaDoorOpen, FaTabletAlt, FaTags} from 'react-icons/fa'
+import Table from './Table'
 
 const Tab = () => {
   return (
@@ -34,7 +35,7 @@ const Tab = () => {
       </div>
     </div>
     
-    <div id="tab-2-content">
+    <div id="tab-2-content" className='hidden'>
       <div>
         <p>Watch TV shows and movies anytime, anywhere - personalised for you.
         </p>
@@ -62,7 +63,7 @@ const Tab = () => {
       <p>Watch right on Netflix.com</p>
       </div>
     </div>
-    <div id="tab-3-content">
+    <div id="tab-3-content" className='hidden'>
       <div>
       <p>
         Choose one plan and watch everything on Netflix.
@@ -70,6 +71,7 @@ const Tab = () => {
       <a href="/">Watch Free for 30 Days</a>
       </div>
     </div>
+    <Table />
     </section>
   )
 }
