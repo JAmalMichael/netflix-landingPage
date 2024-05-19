@@ -23,7 +23,7 @@ const Showcase = () => {
     flex flex-col justify-center items-center text-center mt-[9rem] text-white'>
       <h1 className="font-bold text-[3.2rem] sm:text-[5.2rem]
       mt-0 mr-0 mb-[1rem]">See What's next</h1>
-      <p className="text-[###] font-normal text-[1.9rem] leading-[1.25] mt-0 mr-0 mb-[3rem] sm:text-[2.5rem]">Watch anywhere Cancel Anytime</p>
+      <p className="text-[###] font-normal text-[1.9rem] leading-[1.25] mt-0 mr-0 mb-[3rem] sm:text-[2rem]">Watch anywhere Cancel Anytime</p>
       <div className="flex bg-red-700 py-[0.4rem] px-[1.3rem] text-sm text-center mr-[0.5rem] 
       shadow-[0 1px 0 rgba(0, 0, 0, 0.45)] hover:opacity-[0.9] rounded-sm sm:text-xl z-20
        h-19 inline-block">

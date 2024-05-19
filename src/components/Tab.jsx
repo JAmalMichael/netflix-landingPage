@@ -5,36 +5,38 @@ import Table from './Table'
 
 const Tab = () => {
   return (
-    <section className="bg-[#141414] pt-[1rem] border-b-red-700 border-r-0 text-gray-400 ">
-    <div className='grid grid-cols-3 items-center justify-center text-center'>
+    <section className="bg-[#141414] pt-[1rem] text-gray-400 ">
+    <div className='grid grid-cols-3 items-center justify-center text-center '>
     <div className='py-[1.5rem] px-0 hover:text-white hover:cursor-pointer flex
-    justify-center items-center flex-col '>
+    justify-center items-center flex-col border-b-2 border-red-700'>
     <FaDoorOpen className='w-10 h-10'/>
-    <p className='hidden sm:inline-block text-[1.2rem] pt-[0.5rem]'>Cancle at any time</p>
+    <p className='hidden sm:inline-block text-[1.2rem'>Cancle at any time</p>
     </div>
     <div className='py-[1.5rem] px-0  hover:text-white hover:cursor-pointer flex
     justify-center items-center flex-col'>
     <FaTabletAlt className='w-10 h-10'/>
-    <p className='hidden sm:inline-block text-[1.2rem] pt-[0.5rem]'>Watch anywhere</p>
+    <p className='hidden sm:inline-block text-[1.2rem] '>Watch anywhere</p>
     </div> 
     <div className='py-[1.5rem] px-0  hover:text-white hover:cursor-pointer flex
     justify-center items-center flex-col'>
     <FaTags className='w-10 h-10'/>
-    <p className='hidden sm:inline-block text-[1.2rem] pt-[0.5rem]'>Pick your price</p>
+    <p className='hidden sm:inline-block text-[1.2rem] '>Pick your price</p>
     </div>
     </div>
     <div className=''>
     <container className=''>
     <div id="tab-1-content" 
-    className='text-white flex flex-col justify-center items-center sm:flex-row flex-1 mx-auto '>
-          <div className=' w-[50%] sm:w-[30%]'>
-            <p>If you decide Netflix isnt for you - no problem
+    className='text-white grid grid-cols-1 gap-1 w-[100%] mt-4'>
+          <div className='sm:w-[30%] grid grid-cols-2 mx-auto gap-2 text-center'>
+            <p className='text-sm'>If you decide Netflix isnt for you - no problem
             . No commitment. Can watch online anytime.</p>
-            <button className='bg-red-700 items-center h-10 w-[2rem] px-2'>
+            <form>
+            <button className='bg-red-700 px-5 my-2 '>
             Watch anytime
             </button>
+            </form>
          </div>
-          <div className=' w-[30%]'>
+          <div className=' w-[30%] mx-auto'>
           <img 
           src="https://i.ibb.co/J2xDJV7/tab-content-1.png"
            alt="" 
@@ -43,7 +45,7 @@ const Tab = () => {
            </div>
     </div>
     
-    <div id="tab-2-content" className='flex flex-col justify-center items-center text-white hidden'>
+    <div id="tab-2-content" className=' text-white hidden'>
       <div className='flex flex-col items-center '>
         <p className='text-center'>Watch TV shows and movies anytime, anywhere - personalised for you.
         </p>
