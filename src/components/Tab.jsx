@@ -26,35 +26,36 @@ const Tab = () => {
     <div className=''>
     <container className=''>
     <div id="tab-1-content" 
-    className='text-white grid grid-cols-1 gap-1 w-[100%] mt-4'>
-          <div className='sm:w-[30%] grid grid-cols-2 mx-auto gap-2 text-center'>
-            <p className='text-sm'>If you decide Netflix isnt for you - no problem
+    className='text-white grid grid-cols-1 gap-1 w-[100%] mt-4 sm:grid-cols-2 mb-4 hidden'>
+          <div className='sm:w-[30%] grid grid-cols-2 mx-auto gap-2 text-center sm:grid-cols-1 sm:mr-0'>
+            <p className='text-sm sm:text-md'>If you decide Netflix isnt for you - no problem
             . No commitment. Can watch online anytime.</p>
             <form>
-            <button className='bg-red-700 px-5 my-2 '>
+            <button className='bg-red-700 px-5 my-2 hover:opacity-[0.9]'>
             Watch anytime
             </button>
             </form>
          </div>
-          <div className=' w-[30%] mx-auto'>
+          <div className=' w-[30%] mx-auto sm:mx-0'>
           <img 
           src="https://i.ibb.co/J2xDJV7/tab-content-1.png"
            alt="" 
-           width={300}
-           height={300} />
+           width={500}
+           height={500} />
            </div>
     </div>
     
-    <div id="tab-2-content" className=' text-white hidden'>
-      <div className='flex flex-col items-center '>
+    <div id="tab-2-content" className=' text-white mt-6'>
+      <div className='grid grid-cols-1 justify-center w-[80%] mx-auto text-lg font-bold mb-6
+      sm:grid-cols-2 sm:w-[70%]'>
         <p className='text-center'>Watch TV shows and movies anytime, anywhere - personalised for you.
         </p>
-        <a href="/" 
-        className='mx-auto text-center my-5'
-        >Watch Free For 30 days</a>
-      </div>
+        <button className='bg-red-700 px-5 hover:opacity-[0.9] h-7 font-medium '>
+            Watch free for 30 days
+        </button>
+        </div>
       <div>
-      <div  className='sm:w-[20%] flex flex-col items-center '>
+      <div  className=' items-center '>
       <img src="https://i.ibb.co/DpdN7Gn/tab-content-2-1.png"
        alt="" width={500} height={500}/>
        <p>Watch your TV</p>

@@ -6,7 +6,7 @@ const Footer = () => {
     <div  
     className='max-w-[70%] 
     mx-auto overflow-auto text-[#999] text-sm '>
-    <p className='mb-[1.5rem]'>Questions? Call 1-866-579-7172</p>
+    <p className='mb-[0.5rem] mt-4'>Questions? Call 1-866-579-7172</p>
     <div className='grid grid-cols-4 gap-[2rem]'>
         <ul>
             <li className='leading-[1.9]'><a href="/" className=" text-[#999] text-sm">FAQ</a></li>
